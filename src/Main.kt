@@ -49,5 +49,33 @@ fun main(args: Array<String>){
 
     //list
     val myList = listOf(1,2,3,4,5,"3")
+    //iterating through without the indices
     for (item in myList) println("Value of item is ${item}")
+    // iterating through the list and checking the item indices
+    for ((index, item) in myList.withIndex()) println("${item} is at idex ${index}")
+
+    // while loop
+    var a = 0
+    while (a <= 10){
+        println(a)
+        a++
+    }
+
+    // do while loop
+    var b = 0
+    do {
+        println(b)
+        b++
+    } while (b <= 5)
+
+    // function call
+    println("double of 4 is "+doMath(4))
 }
+
+//function with return statement
+//can be written as
+//
+//fun  doMath(x:Int):Int{
+//    return x * 2
+//}
+fun doMath(x:Int) = x * 2
