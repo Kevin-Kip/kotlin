@@ -50,9 +50,9 @@ fun main(args: Array<String>){
     //list
     val myList = listOf(1,2,3,4,5,"3")
     //iterating through without the indices
-    for (item in myList) println("Value of item is ${item}")
+    for (item in myList) println("Value of item is $item")
     // iterating through the list and checking the item indices
-    for ((index, item) in myList.withIndex()) println("${item} is at idex ${index}")
+    for ((index, item) in myList.withIndex()) println("$item is at index $index")
 
     // while loop
     var a = 0
