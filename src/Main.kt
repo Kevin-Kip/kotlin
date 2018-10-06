@@ -9,7 +9,7 @@ fun main(args: Array<String>){
 
     val x = 2 // variable declaration. This can be val x: Int = 2
 
-    // This is the equivqlent if a switch statement
+    // This is the equivalent if a switch statement
     when(x){
         1 -> println("X is 1")
         2 -> println("X is 2")
@@ -70,6 +70,8 @@ fun main(args: Array<String>){
 
     // function call
     println("double of 4 is "+doMath(4))
+
+    //hashMap
 }
 
 //function with return statement
